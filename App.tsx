@@ -14,7 +14,7 @@ import Layout from './src/components/Layout';
 const App: React.FC = () => {
   return (
     <Theme appearance="inherit" radius="large" scaling="100%">
-      <Router>
+      <Router basename="/pharmacy-management">
         <Layout>
           <Routes>
             <Route path="/" element={<Home />} />
